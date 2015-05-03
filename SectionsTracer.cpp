@@ -27,8 +27,8 @@
 
 std::string m_AnalysedApp;
 std::string m_Param;
-FILE *m_BlocksFile = NULL	// output
-FILE *m_FunctionsFile = NULL	// output
+FILE *m_BlocksFile = NULL;	// output
+FILE *m_FunctionsFile = NULL;	// output
 
 INT m_myPid = 0;		//PID of application
 std::string m_PidFileName;
